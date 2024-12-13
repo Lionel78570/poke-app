@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <header className="bg-white shadow p-4 flex items-center">
-          <Link href="/" className="flex items-center">
+          <Link href="/pokemons" className="flex items-center">
             <img
               src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"
               alt="Pokéball Logo"
