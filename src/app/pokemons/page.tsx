@@ -7,6 +7,12 @@ interface Pokemon {
   image: string;
 }
 
+export const generateMetadata = () => ({
+  title: 'Liste des Pokémon',
+  description: 'Explorez la liste des Pokémon avec leur image et leur ID.',
+});
+
+
 const PokemonPage = async () => {
   // Récupérer les données de l'API PokéAPI
   const response = await fetch("https://pokeapi.co/api/v2/pokemon?limit=1000");
